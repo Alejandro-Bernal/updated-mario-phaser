@@ -36,8 +36,8 @@ if (!fs.existsSync(paths.build.assets)) {
 }
 
 require("child_process").spawn(
-  "parcel build",
-  ["index.html", "--no-autoinstall", "--dist-dir", "build"],
+  "parcel",
+  ["build", "index.html", "--no-autoinstall", "--dist-dir", "build"],
   {
     stdio: ["ignore", "inherit", "inherit"],
     shell: true,
