@@ -1,0 +1,2 @@
+body{margin:0;user-select:none}#mario{background:#000;height:480px;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);width:640px}label{bottom:10px}.score,label{left:10px;position:absolute}.score{font-size:21px;top:10px}.game-over{color:#fff;display:none;font-size:21px;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.game-over.visible{display:block}
+/*# sourceMappingURL=index.af71aab5.css.map */
